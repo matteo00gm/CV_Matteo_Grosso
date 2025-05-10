@@ -59,7 +59,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Nepta",
-      link: "https://film.io",
+      link: "",
       badges: ["Remote", "Vue", "Go", "Docker", "Kafka"],
       title: "Full Stack DevOps",
       logo: ConsultlyLogo,
@@ -83,7 +83,7 @@ export const RESUME_DATA = {
     },
     {
       company: "IBM",
-      link: "https://parabol.co",
+      link: "",
       badges: ["Remote", "Vue", "Go", "Java", "Docker", "Kafka"],
       title: "Full Stack Developer",
       logo: ParabolLogo,
@@ -102,7 +102,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Reply",
-      link: "https://parabol.co",
+      link: "",
       badges: ["Remote", "Angular", "TypeScript", "Java", "Spring Boot", "Power BI"],
       title: "Full Stack Developer",
       logo: ParabolLogo,
