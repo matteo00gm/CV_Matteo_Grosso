@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Or the branch you use for development
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Use a recent Node.js version
+
+      - name: Install dependencies
+        run: yarn install --immutable --frozen-lockfile # Use --immutable for Yarn v2+ or --frozen-lockfile for Yarn v1
+
+      - name: Build Next.js app
+        run: |
+          NODE_ENV=production DEPLOY_TARGET=github_pages yarn build
+        env:
+          # If you have environment variables needed for the build, define them here
+          # NEXT_PUBLIC_MY_VARIABLE: ${{ secrets.MY_VARIABLE }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist # Make sure this matches the distDir in next.config.js
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
