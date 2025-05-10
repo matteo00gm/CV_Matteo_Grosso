@@ -5,6 +5,11 @@ on:
     branches:
       - main # Or the branch you use for development
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write # <--- Add this line
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -26,7 +31,7 @@ jobs:
           NODE_ENV=production DEPLOY_TARGET=github_pages yarn build
         #env:
           # If you have environment variables needed for the build, define them here
-          # NEXT_PUBLIC_MY_VARIABLE: ${{ secrets.MY_VARIABLE }} # <--- This line or similar might be the issue
+          # NEXT_PUBLIC_MY_VARIABLE: ${{ secrets.MY_VARIABLE }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
