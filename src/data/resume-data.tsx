@@ -10,10 +10,10 @@ export const RESUME_DATA = {
   location: "Turin, Italy, CET",
   locationLink: "https://www.google.com/maps/place/RivaroloCanavese",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Detail-oriented Backend Engineer dedicated to building performant products.",
   summary: (
     <>
-      Experienced Full Stack Developer specializing in high-performance Golang services. 
+      Experienced Backend Developer specializing in high-performance Golang services. 
       Proven ability to design, develop, and implement scalable and efficient server-side architectures. 
       Also skilled in Vue front-end development and DevOps practices with AWS, Docker and Kubernetes.
     </>
@@ -60,8 +60,8 @@ export const RESUME_DATA = {
     {
       company: "Nepta",
       link: "",
-      badges: ["Remote", "Vue", "Go", "Docker", "Kafka"],
-      title: "Full Stack DevOps",
+      badges: ["Remote", "Go", "Java", "Docker", "Kafka"],
+      title: "Backend Developer",
       logo: ConsultlyLogo,
       start: "2024",
       end: null,
@@ -84,17 +84,17 @@ export const RESUME_DATA = {
     {
       company: "IBM",
       link: "",
-      badges: ["Remote", "Vue", "Go", "Java", "Docker", "Kafka"],
-      title: "Full Stack Developer",
+      badges: ["Remote", "Go", "Java", "Docker", "Kafka"],
+      title: "Backend Developer",
       logo: ParabolLogo,
       start: "2023",
       end: "2024",
       description: (
         <>
-          Sole developer for a client investment portfolio risk management web application.
+          Risk management restfull application.
           <ul className="list-inside list-disc">
             <li>
-              This experience allowed me to collaborate directly with clients to discuss and propose both evolutionary and corrective solutions. Additionally, as the sole developer, I developed and maintained a web application crucial for employees in managing client investment portfolio risk.
+              This experience allowed me to collaborate directly with clients to discuss and propose both evolutionary and corrective solutions. Additionally, I developed and maintained some rest APIs crucial for employees in managing client investment portfolio risk.
             </li>
           </ul>
         </>
@@ -103,8 +103,8 @@ export const RESUME_DATA = {
     {
       company: "Reply",
       link: "",
-      badges: ["Remote", "Angular", "TypeScript", "Java", "Spring Boot", "Power BI"],
-      title: "Full Stack Developer",
+      badges: ["Remote", "Java", "Spring Boot", "Power BI"],
+      title: "Backend Developer",
       logo: ParabolLogo,
       start: "2020",
       end: "2023",
@@ -131,14 +131,38 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "MusicPlayer",
+      title: "Chase Game",
       techStack: [
         "Go",
-        "Vue",
-        "WebSockets",
       ],
       description:
-        "[WIP]Music streaming platform like spotify. Using the ebitengine/oto library for decoding the mp3 files and for the system calls, the project aims to reproduce the tracks selected to the clients who requested the audio file",
+        "Simple 2D game which uses my A* library in order to move the AI that chases the player.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "A* algorithm",
+      techStack: [
+        "Go",
+      ],
+      description:
+        "Go Implementation of the A* Pathfinding Algorithm",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "StereoPlayer API",
+      techStack: [
+        "Go",
+      ],
+      description:
+        "Personal stereo working with rest APIs. Using the ebitengine/oto library for decoding the mp3 files and for the system calls, the project aims to reproduce the tracks selected directly to the server.",
       logo: ConsultlyLogo,
       link: {
         label: "",
