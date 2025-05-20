@@ -15,7 +15,7 @@ export const RESUME_DATA = {
     <>
       Experienced Backend Developer specializing in high-performance Golang services. 
       Proven ability to design, develop, and implement scalable and efficient server-side architectures. 
-      Also skilled in Vue front-end development and DevOps practices with AWS, Docker and Kubernetes.
+      Also skilled in DevOps practices with AWS, Docker and Kubernetes.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/76428629?s=400&u=0567efbcb65ee9b9bf47050a928c9f08c35426bd&v=4",
