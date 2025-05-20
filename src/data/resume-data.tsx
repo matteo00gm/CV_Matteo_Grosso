@@ -149,7 +149,7 @@ export const RESUME_DATA = {
         "Go",
       ],
       description:
-        "Go Implementation of the A* Pathfinding Algorithm tailored with comprehensive test and benchmarks classes.",
+        "Go Implementation of the A* Pathfinding Algorithm tailored with comprehensive test classes and benchmarks.",
       logo: ConsultlyLogo,
       link: {
         label: "",
