@@ -41,6 +41,10 @@ export const RESUME_DATA = {
       title: "AWS Certified Developer – Associate",
       start: "August 29, 2024",
     },
+    {
+      title: "AWS Certified Solution Architect – Associate",
+      start: "September 21, 2025",
+    },
   ],
   education: [
     {
