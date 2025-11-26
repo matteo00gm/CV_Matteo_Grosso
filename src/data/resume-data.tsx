@@ -62,13 +62,45 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Banjo Robotics",
+      link: "",
+      badges: ["Remote", "Go", "Java", "Docker", "AWS"],
+      title: "Senior Fullstack Developer",
+      logo: ConsultlyLogo,
+      start: "2025",
+      end: null,
+      description: (
+        <>
+          Operated as an autonomous consultant, taking full ownership of the architectural design and development of key internal projects. I combined software engineering with DevOps best practices to deliver scalable cloud solutions.
+          <ul className="list-inside list-disc">
+            Key Responsibilities:
+            <li>
+              Cloud Architect & DevOps: Designed and deployed a robust cloud infrastructure on AWS using cloudformation and ECS.
+            </li>
+            <li>
+              Containerization & ci/cd: Dockerized an open-source library wrapper and established a comprehensive CI/CD pipeline using GitHub Actions, managing deployments across Development, Testing, and Production environments.
+            </li>
+            <li>
+              Serverless Development: Built a Chatbot wrapper POC from scratch using Golang. Leveraged a serverless architecture with AWS Lambda, Cloudfront, and SAM for efficient and cost-effective deployment.
+            </li>
+            <li>
+              Tecnical Leadership: Acted as a technical reference for the recruitment process, conducting technical interviews for new team members.
+            </li>
+            <li>
+              Mentorship: Provided guidance and mentorship to junior colleagues.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
       company: "Nepta",
       link: "",
       badges: ["Remote", "Go", "Java", "Docker", "Kafka"],
       title: "Backend Developer",
       logo: ConsultlyLogo,
       start: "2024",
-      end: null,
+      end: "2025",
       description: (
         <>
           Worked across multiple projects, contributing to both application development and infrastructure management.
