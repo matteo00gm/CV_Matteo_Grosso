@@ -169,7 +169,7 @@ export const RESUME_DATA = {
     {
       title: "Proto",
       techStack: [
-        "Go", "Kafka", "Redis"
+        "Go", "Kafka", "Redis",
       ],
       description:
         "Pulse is a distributed event ingestion system built in Go. It handles high-volume telemetry data via gRPC, buffers it through Kafka, processes it with a background worker, and stores real-time aggregations in Redis. The entire stack is fully observable with Prometheus, Grafana, and pprof.",
