@@ -13,8 +13,8 @@ export const RESUME_DATA = {
     "Detail-oriented Backend Engineer dedicated to building performant products.",
   summary: (
     <>
-      Experienced Backend Developer specializing in high-performance Golang services. 
-      Proven ability to design, develop, and implement scalable and efficient server-side architectures. 
+      Experienced Backend Developer specializing in high-performance Golang services.
+      Proven ability to design, develop, and implement scalable and efficient server-side architectures.
       Also skilled in DevOps practices with AWS, Docker and Kubernetes.
     </>
   ),
@@ -167,7 +167,33 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Proto",
+      title: "Project Theremin",
+      techStack: [
+        "Go", "Python",
+      ],
+      description:
+        "A low latency, multimodal HCI system for touchless OS navigation combining relative hand-gesture tracking and acoustic triggers.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://github.com/matteo00gm/project-theremin",
+      },
+    },
+    {
+      title: "Quiz Formazione Primaria",
+      techStack: [
+        "Flutter",
+      ],
+      description:
+        "A growing Flutter-based quiz application for students who want to join the university in the Formazione Primaria course. It runs 100% locally, generates revenue through ads and offers premium plans via in-app purchases.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://play.google.com/store/apps/details?id=com.matteogrosso.fp_quiz_app",
+      },
+    },
+    {
+      title: "Pulse",
       techStack: [
         "Go", "Kafka", "Redis",
       ],
@@ -176,7 +202,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/matteo00gm/pulse",
       },
     },
     {
@@ -189,7 +215,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/matteo00gm/chase-game",
       },
     },
     {
@@ -202,7 +228,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/matteo00gm/go-astar",
       },
     },
     {
