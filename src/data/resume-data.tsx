@@ -48,12 +48,6 @@ export const RESUME_DATA = {
   ],
   education: [
     {
-      school: "Politecnico di Torino",
-      degree: "Bachelor's Degree in Computer Science",
-      start: "2025",
-      end: "Present",
-    },
-    {
       school: "ITIS C.Olivetti, Ivrea",
       degree: "Diploma in Information Technology and Communication Systems",
       start: "2017",
