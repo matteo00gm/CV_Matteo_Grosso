@@ -58,7 +58,7 @@ export const RESUME_DATA = {
     {
       company: "Banjo Robotics",
       link: "",
-      badges: ["Remote", "Go", "Java", "Docker", "AWS"],
+      badges: ["Remote", "Java", "Docker", "AWS"],
       title: "Senior Fullstack Developer",
       logo: ConsultlyLogo,
       start: "2025",
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
               Containerization & ci/cd: Dockerized an open-source library wrapper and established a comprehensive CI/CD pipeline using GitHub Actions, managing deployments across Development, Testing, and Production environments.
             </li>
             <li>
-              Serverless Development: Built a Chatbot wrapper POC from scratch using Golang. Leveraged a serverless architecture with AWS Lambda, Cloudfront, and SAM for efficient and cost-effective deployment.
+              Serverless Development: Built a Chatbot wrapper POC from scratch using Spring Boot 3 & Java 21. Leveraged a serverless architecture with AWS Lambda, Cloudfront, and SAM for efficient and cost-effective deployment.
             </li>
             <li>
               Tecnical Leadership: Acted as a technical reference for the recruitment process, conducting technical interviews for new team members.
